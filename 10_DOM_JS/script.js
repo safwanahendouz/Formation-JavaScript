@@ -14,6 +14,7 @@
 // const title= document.getElementsByClassName('header')
 // console.log(title[0].innerText)
 
+
 // Permet de sélectionner un élément avec un sélecteur CSS.
 // const titre = document.querySelector('h1');
 // console.log(titre.textContent);

@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 100vh;
+    background-color: rgb(147, 167, 134);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container .card {
+    width: 210px;
+    height: 340px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: gray;
+}
+
+.container .card .image {
+    width: 210px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.container .card .image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+
+}
+
+.container .infos {
+    padding: 10px;
+    border-bottom-left-radius: 7px;
+    
+}
+
+.container .infos .info {
+    margin-bottom: 10px;
+    display: flex;
+    padding: 3px;
+    border-radius: 7px;
+    border:1px solid rgb(88, 58, 58) ;
+    background-color: rgb(116, 121, 121);
+
+}
+
+.container .infos .info span:first-child {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 18px;
+    display: block;
+    width: 60px;
+}
+
+.container .infos .info span:last-child {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 15px;
+    display: block;
+}
+
+
+
+

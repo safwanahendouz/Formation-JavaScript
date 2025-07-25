@@ -56,6 +56,6 @@ let clients = [
 
 // Filter//////////////////////////////////////
 
-let clientFiltred = clients.filter((client) => {
-    return client.active
-})
+// let clientFiltred = clients.filter((client) => {
+//     return client.active
+// })

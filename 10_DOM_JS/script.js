@@ -20,8 +20,8 @@
 // console.log(titre.textContent);
 
 
-const input = document.querySelector('.my-input')
-console.log(input)
+// const input = document.querySelector('.my-input')
+// console.log(input)
 
 
 
@@ -51,9 +51,9 @@ console.log(input)
 ///////////////////////////////////////////////////////////////////////////////////
 
 // const image = document.querySelector('img');
+// console.log(image)
 // console.log(image.getAttribute('src'));
-// image.setAttribute('alt', 'Nouvelle description');
-
+// image.setAttribute('src', '../0_football players/photo__Diaz.png');
 
 
 ///////////////////////////////////////////////////////////////////////////////////

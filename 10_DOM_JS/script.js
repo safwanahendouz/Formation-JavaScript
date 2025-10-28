@@ -92,10 +92,10 @@
 ///////////////// 9. addEventListener - Event Click
 ///////////////////////////////////////////////////////////////////////////////////
 
-// const button = document.querySelector('#myBtn');
-// button.addEventListener('click', () => {
-//     alert('Bouton cliqué !');
-// });
+const button = document.querySelector('#myBtn');
+button.addEventListener('click', () => {
+    alert('Bouton cliqué !');
+});
 
 
 

@@ -46,15 +46,31 @@
 .container .Forme .envoyer:hover {
     background-color: rgb(21, 24, 23);
     border: 2.5px solid white;
-    border-radius: 3.5px;
+    border-radius: 30px;
 }
 
 .container .Forme .envoyer input {
     color: black;
     background-color: rgba(31, 31, 32, 0.74);
-    border-radius: 8px;
+    border-radius: 30px;
     cursor: pointer;
     
 }
 
-    
+.title {
+    background-color: rgb(153, 150, 144);
+    color:rgb(182, 110, 43);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 4px solid rgb(196, 121, 35);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+

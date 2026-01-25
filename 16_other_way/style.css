@@ -1,0 +1,13 @@
+.Nav-bar{
+    background-color: aqua;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+}
+/* the inherit give the same characters of padding or border or color of the elements before  */
+
+    /* border: inherit; */
+    /* padding: inherit; */
+    

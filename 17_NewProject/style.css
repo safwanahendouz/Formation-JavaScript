@@ -43,6 +43,10 @@
     background-color: yellow;
     width: 200px;
     border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 
 
@@ -59,8 +63,19 @@
 .container .Home .para {
     width: 100%;
     background-color: rgb(125, 125, 199);
-
 }
+
+.container .ex {
+    background-color: aqua;
+    letter-spacing: 8px;
+    text-shadow: 6px;
+    text-indent: 100px;
+}
+
+.container .para {
+    line-height: 1.7 ;
+}
+
 
 
 

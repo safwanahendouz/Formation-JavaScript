@@ -64,6 +64,39 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transform: translate(50px, -0px);
     margin-top: 49px;
+    transform: skew(10deg ,10deg);
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(10deg ,10deg);
+    -ms-transform: skew(10deg ,10deg);
+    -o-transform: skew(10deg ,10deg);
+}
 
+/* Grid method */
+
+/* .Home {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    transform: skew(10deg ,10deg);
+    grid-area: auto;
+    grid-column: auto;
+    grid-row: auto;
+    overflow: hidden
+    
+} */
+
+/* transform /rotate /transition */
+.Home :hover {
+    overflow: hidden;
+    transition: 1.5s;
+    transform: rotate(10deg) scale(1.5);
+    opacity: 3.4px;
+    /*transition: 180deg;
+    /**/transform: scale(2);
+    -webkit-transform: rotate(10deg) scale(1.5);
+    -moz-transform: rotate(10deg) scale(1.5);
+    -ms-transform: rotate(10deg) scale(1.5);
+    -o-transform: rotate(10deg) scale(1.5);
 }

@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .Gradients {
     width: 100%;
     height: 100px;
@@ -29,13 +32,22 @@
     font-size: 19px;
     font-weight: 600;
     position: fixed;
-}
+    /* -webkit-transform: matrix(); */
+    /* -moz-transform: matrix(); */
+    /* -ms-transform: matrix();
+    -o-transform: matrix();
+} */
 
 .Nav-bar :hover {
     color: rgb(9, 139, 139);
     cursor: pointer;
     border-bottom: 2px solid rgb(9, 139, 139);
-    /* border-bottom: rgb(27, 29, 29); */
+    /*border-bottom: rgb(27, 29, 29);
+     */
+    /* -webkit-transform: matrix();
+    -moz-transform: matrix();
+    -ms-transform: matrix();
+    -o-transform: matrix(); */
 }
 .Home .para{
     width: 1000px;
@@ -53,11 +65,15 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     font-weight: 530;
-
+    transform: rotate3d(1,1,1,20deg);
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+    -webkit-transform: rotate3d(1,1,1,20deg);
+    -moz-transform: rotate3d(1,1,1,20deg);
+    -ms-transform: rotate3d(1,1,1,20deg);
+    -o-transform: rotate3d(1,1,1,20deg);
 }
 
 .Home {
@@ -67,10 +83,12 @@
     transform: translate(50px, -0px);
     margin-top: 49px;
     transform: skew(10deg ,10deg);
-    -webkit-transform: skew(-10deg);
-    -moz-transform: skew(10deg ,10deg);
-    -ms-transform: skew(10deg ,10deg);
-    -o-transform: skew(10deg ,10deg);
+    transform-origin: 50% 50%;
+    
+    -webkit-transform: matrix();
+    -moz-transform: matrix();
+    -ms-transform: matrix();
+    -o-transform: matrix();
 }
 
 /* Grid method */
@@ -83,20 +101,76 @@
     grid-area: auto;
     grid-column: auto;
     grid-row: auto;
-    overflow: hidden
-    
-} */
+    transform: matrix();
+    overflow: hidden    ;
+    -webkit-transform: matrix();
+    -moz-transform: matrix();
+    -ms-transform: matrix();
+    -o-transform: matrix();
+    } */
 
-/* transform /rotate /transition */
+    /* transform /rotate /transition */
 .Home :hover {
     overflow: hidden;
-    transition: 1.5s;
-    transform: rotate(10deg) scale(1.5);
-    opacity: 3.4px;
+    transition: 3s;
+    transform: rotate(10deg) scale(1.25);
+    opacity: 4px;
     /*transition: 180deg;
     /**/transform: scale(2);
-    -webkit-transform: rotate(10deg) scale(1.5);
-    -moz-transform: rotate(10deg) scale(1.5);
-    -ms-transform: rotate(10deg) scale(1.5);
-    -o-transform: rotate(10deg) scale(1.5);
-}
+    -webkit-transform: rotate(10deg) scale(1.25);
+    -moz-transform: rotate(10deg) scale(1.25);
+    -ms-transform: rotate(10deg) scale(1.25);
+    -o-transform: rotate(10deg) scale(1.25);
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -ms-transition: 3s;
+    -o-transition: 3s;
+}}
+
+
+/* perspective  (3D)*/
+/* 
+box-sizing: border-box;
+perspective: 600px;
+transform-style: preserve-3d;
+
+/* keyfames and Animation */
+/*  animation-name: change-color;
+animation-duration: 5s;
+animation-iteration-count: 2;
+animation-timing-function: linear;(infinity of turning)
+animation-direction: reverse;
+animation-direction: alternate;
+animation-direction: alternate-reverse;
+animation-delay: 2s;(time before animation starts)
+animation-fill-mode: forwards;(take the last style for example (color))
+animation-fill-mode: backwards;(the opposite of forwards:take the first style)
+animation-fill-mode: both;(the forwards and backwards)
+animation-play-state: running;(default value)
+animation-play-state: paused;
+animation: Name Timing linear timing infinite reverse;(short-hand)
+
+*/
+/* @keyframes change-color{
+    from{
+        background-color: red;
+        
+        }
+        to{
+            background-color: green;
+            
+        }
+        } */
+/* @keyframes change-color{
+    0%{
+        background-color:red;
+    }
+    50%{
+        background-color: green;
+    }
+    100%{
+        background-color: red;
+    }
+} */
+
+

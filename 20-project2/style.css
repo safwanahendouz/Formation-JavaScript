@@ -173,4 +173,29 @@ animation: Name Timing linear timing infinite reverse;(short-hand)
     }
 } */
 
+/* media */
+
+/* Mobile */
+@media (max-width :767px){
+    
+}
+
+/* Small screens */
+@media (min-width :768px){
+    
+}
+
+/* Medium screens */
+@media (min-width :992px){
+    
+}
+
+/* Large screens */
+@media (min-width :1200px){
+    
+}
+/* X Large screens */
+@media (min-width :1400px){
+    
+}
 
